@@ -33,6 +33,12 @@ window.addEventListener('scroll', function() {
         header.style.backgroundColor = 'transparent'; // Відсутність фону
         home.style.paddingTop = '0px'
     }
+
+    if (value < 500) {
+        text.style.marginTop = value * 0.5 + 'px';
+    } else {
+        home.style.paddingTop = '0px'
+    }
 })
 
 btnUp.addEventListener('click', function() {

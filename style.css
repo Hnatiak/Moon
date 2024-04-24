@@ -137,6 +137,10 @@ section img#mountains_front  {
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9;
+
+    @media screen and (max-width: 768px) {
+        font-size: 13.5vw;
+    }
 }
 
 #btnAcc {
@@ -164,8 +168,8 @@ section img#mountains_front  {
     transform: translateY(100px);
 
     @media screen and (max-width: 768px) {
-        padding: 4px 15px;
-        font-size: 1em;
+        font-size: 1.3em;
+        transform: translateY(50px);
     }
 }
 
