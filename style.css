@@ -39,6 +39,10 @@ header {
     opacity: 100%;
     background-color: transparent;
     transition: background-color 0.5s ease;
+
+    @media screen and (max-width: 768px) {
+        padding: 15px 30px;
+    }
 }
 
 /* Ми пишемо якщо хочемо внести зміни для ВСІХ класів .logo які є ЛИШЕ в хедері */
@@ -158,23 +162,40 @@ section img#mountains_front  {
     font-size: 1.5em;
     z-index: 9;
     transform: translateY(100px);
+
+    @media screen and (max-width: 768px) {
+        padding: 4px 15px;
+        font-size: 1em;
+    }
 }
 
 .sec {
     position: relative;
     padding: 100px;
     background: #1c0522;
+
+    @media screen and (max-width: 768px) {
+        padding: 40px;
+    }
 }
 
 .sec h2 {
     font-size: 3.5em;
     margin-bottom: 10px;
     color: #fff;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.5em;
+    }
 }
 
 .sec p {
     font-size: 1.2em;
     color: #fff;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1em;
+    }
 }
 
 .up {
@@ -189,6 +210,11 @@ section img#mountains_front  {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1em;
+        transform: translateY(-20px);
+    }
 }
 
 #contact a:hover {
